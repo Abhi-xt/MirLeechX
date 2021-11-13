@@ -21,15 +21,15 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading."
-    STATUS_DOWNLOADING = "Downloading."
-    STATUS_CLONING = "Cloning."
-    STATUS_WAITING = "Queued."
-    STATUS_FAILED = "Failed.Cleaning Download."
-    STATUS_PAUSE = "Paused."
-    STATUS_ARCHIVING = "Archiving."
-    STATUS_EXTRACTING = "Extracting."
-    STATUS_SPLITTING = "Splitting."
+    STATUS_UPLOADING = "Uploading...📤"
+    STATUS_DOWNLOADING = "Downloading...📥"
+    STATUS_CLONING = "Cloning...♻️"
+    STATUS_WAITING = "Queued...📝"
+    STATUS_FAILED = "Failed 🚫 Cleaning Download...🗑️"
+    STATUS_PAUSE = "Paused...⭕️"
+    STATUS_ARCHIVING = "Archiving...🔐"
+    STATUS_EXTRACTING = "Extracting...📂"
+    STATUS_SPLITTING = "Splitting...✂️"
 
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 
